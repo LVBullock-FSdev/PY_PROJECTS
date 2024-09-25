@@ -13,4 +13,6 @@
 6. sum_calculator 
 7. body_weight_convertor
 8. aws_account_id
-9. reversing_a_word 
+9. reversing_a_word
+- In-Class Lab - Review of Strings
+10. hackathon_9-24 
