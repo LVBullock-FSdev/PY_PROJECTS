@@ -15,4 +15,9 @@
 8. aws_account_id
 9. reversing_a_word
 - In-Class Lab - Review of Strings
-10. hackathon_9-24 
+10.  hackathon_9-24
+## Control Flow
+- Getting user input and using if, elif and else to perform calculations/comparisons
+11.  even_or_odd
+12.  grade_calculator
+13.  age_group_categorization 
