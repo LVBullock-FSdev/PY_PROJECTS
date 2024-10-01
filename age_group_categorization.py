@@ -3,22 +3,23 @@
 Week4 - Day2
 LabCake3-age_group_categorization.py
 
-Prompt the user to enter their age as an integer.
+Prompt the user to enter their age as an integer and display the appropriate life stage.
+If the user enters a negative number or a non-realistic number (e.g. more than 150), display and "Invalid age" message.'''
 
-Based on the input, categorize the person into one of the following life stages:'''
-
-invalid_msg = "Invalid age! You have failed the human test.  Please try again."
 age = int(input("Please enter your age:\t"))
 age_msg = f"The age entered is:  {age}. This person is a(n):\t"
+invalid_msg = f"The age entered is:  {age}.  Invalid age! You have failed the human test.  Please try again."
+
+#Based on the input, categorize the person into one of the following life stages:
 
 #Invalid entry
 if age < 0 or age > 150:
   print(invalid_msg)
 #Infant: 0-1 year
-elif age == 0 or age < 2:
+elif age == 0 or age == 1:
   print(age_msg + "INFANT")
 #Toddler: 2-3 years
-elif age == 2 or age < 4:
+elif age == 2 or age == 3:
   print(age_msg + "TODDLER")
 #Child: 4-12 years
 elif age == 4 or age < 13:
