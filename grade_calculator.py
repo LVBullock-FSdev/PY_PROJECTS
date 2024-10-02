@@ -34,5 +34,4 @@ elif gpa >= 70 and gpa < 80:
 elif gpa >= 60 and gpa < 70:
     print(f"Your GPA is {gpa} -- Grade is D.")
 else:
-    if gpa < 60:
-        print(f"Your GPA is {gpa} -- Grade is E- You have failed.")
+    print(f"Your GPA is {gpa} -- Grade is E- You have failed.")
