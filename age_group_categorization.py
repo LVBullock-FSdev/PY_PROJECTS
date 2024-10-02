@@ -12,10 +12,6 @@ invalid_msg = f"The age entered is:  {age}.  Invalid age! You have failed the hu
 
 #Based on the input, categorize the person into one of the following life stages:
 
-#Invalid entry
-# if age < 0 or age > 150:
-#   print(invalid_msg)
-#Infant: 0-1 year
 if age == 0 or age == 1:
   print(age_msg + "INFANT")
 #Toddler: 2-3 years
@@ -23,7 +19,6 @@ elif age == 2 or age == 3:
   print(age_msg + "TODDLER")
 #Child: 4-12 years
 elif age >= 4 and age <= 12:
-
 # elif age == 4 or age < 13:
   print(age_msg + "CHILD")
 #Teenager: 13-19 years
