@@ -23,4 +23,4 @@
 13.  age_group_categorization 
 ## Lists
 - Get Max and Min Values from a list
-14.  max_min_values
+14.  get_min_max
