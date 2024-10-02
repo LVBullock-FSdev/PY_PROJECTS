@@ -6,7 +6,7 @@ In-Class Lab - hackathon_9-24.py
 You are given both messages:'''
 
 msg1 = "welcome to aws python 101 class: strings"
-msg2 = "The instructor here is Claudio"
+msg2 = "The instructor here is Cloudio"
 
 #Write a python program what will:
 
