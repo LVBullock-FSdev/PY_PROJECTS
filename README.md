@@ -21,3 +21,6 @@
 11.  even_or_odd
 12.  grade_calculator
 13.  age_group_categorization 
+## Lists
+- Get Max and Min Values from a list
+14.  max_min_values
