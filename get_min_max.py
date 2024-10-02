@@ -1,7 +1,7 @@
 '''Laura V. Bullock
 10/2/2024
 Week5 - Day1
-Homework-max_min_values.py
+Homework-get_min_max.py
 
 - Write a Python program that prints the largest and smallest values in a list.
 - Print the two values on the same line, separated by a space.
@@ -16,9 +16,9 @@ Expected output:
 []              --> []
 '''
 
-# my_list = [3,4,5,6]
-# my_list = [-1,-2,-3,-4]
-# my_list = [0,0,0,0]
+# = [3,4,5,6]
+#my_list = [-1,-2,-3,-4]
+#my_list = [0,0,0,0]
 my_list = [] 
 
 if len(my_list) != 0:
