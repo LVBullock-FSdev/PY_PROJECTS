@@ -12,10 +12,7 @@ Your number user_number is even/odd.
 
 user_number = float(input("Please enter a number between 1-100:\t"))
 
-# if user_number < 1 or user_number > 100:
-#     print(f"Please try again -- you entered {user_number}")
 if user_number % 2 == 0:
     print(f"Your number {user_number} is EVEN")
 else:
-    # if user_number % 2 != 0:
-        print(f"Your number:  {user_number} is ODD.")
+    print(f"Your number:  {user_number} is ODD.")
