@@ -24,3 +24,10 @@
 ## Lists
 - Get Max and Min Values from a list
 14.  get_min_max
+## Dictionaries
+- Get user input to translate a word from English to French
+15.  english_french_translator
+- Print the last name of the second employee
+16.  get_last_name
+- OPTIONAL:  Get user input to translate an English word to another language 
+17.  language_translator
