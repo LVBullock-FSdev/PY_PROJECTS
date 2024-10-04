@@ -20,5 +20,3 @@ h2_dictionary = {"employees": [{"firstName": "John", "lastName": "Doe"},\
 
 #printing the Second employee's last name
 print(f'\nThe last name of the second employee is:\t', h2_dictionary["employees"][1]["lastName"])
-
-
