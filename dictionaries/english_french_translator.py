@@ -10,38 +10,56 @@ Homework-english_french_translator.py
 ***The user will select the language that he/she would like to translate to*** (optional)
 '''
 
-#get user input
-user_input = input('\nSelect from the list below or enter a word.\
-                   \n\tcloud\n\tspace\n\tassigns\n\tchallenging homework\n\tno prunes here\n\tprune\
-                   \nPlease enter a word here-->   ')
-
-#declaration for word not in memory
-not_in_memory = f'\nSorry, the word "{user_input.upper()}" is not in memory today, but we can add it in the future if it is a real word.'
-
 # declare an empty dictionary
 french = {}
 
 #Add to the dictionary
-french["cloud"]= "nuage"
+french["Jesus"] = "Jésus"
+french["Christ"] = "Christ"
+french["cloud"] = "nuage"
 french["space"] = "espace"
 french["assigns"] = "assigne"
-french["challenging homework"] = "devoirs difficiles"
+french["challenging"] = "difficiles"
+french["homework"] = "devoirs"
 french["no prunes here"] = "pas de pruneaux ici"
+french["english"] = "anglaise(feminine), Anglais(masculine)"
+french["purple"] = "violette(feminine), violet(masculine)"
+french["brain"] = "cerveau"
+french["apple"] = "pomme"
+french["orange"] = "orange"
+french["strawberry"] = "fraise"
 french["prune"] = "élaguer"
+french["water"] = "eau"
+french["watermelon"] = "pastèque"
+french["class"] = "classe"
+french["sleepy"] = "somnolente(feminine), somnolent(masculine)"
+french["headache"] = "mal de tête"
+french["dictionary"] = "dictionnaire"
+french["father"] = "père"
+french["mother"] = "mère"
+french["son"] = "fils"
+french["daughter"] = "fille"
+french["family"] = "famille"
+french["boy"] = "garçon"
+french["girl"] = "fille"
+french["dog"] = "chienne(feminine), chien(masculine)"
+french["cat"] = "chatte(feminine), chat(masculine)"
 
-translation = f'\nThe French translation of "{user_input.upper()}" is:\t'
+#Print the dictionary
+print(french)
 
-if user_input == "cloud":
-    print(translation, french.get('cloud'))
-elif user_input == "space":
-    print(translation, french.get('space'))
-elif user_input == "assigns":
-    print(translation, french.get('assigns'))
-elif user_input == "challenging homework":
-    print(translation, french.get('challenging homework'))
-elif user_input == "no prunes here":
-    print(translation, french.get('no prunes here'))
-elif user_input == "prune":
-    print(translation, french.get('prune'))
+#get user input
+user_input = input('\nPlease enter a word here-->   ')
+
+#declaration for word not in memory
+not_in_memory = f'\nSorry, the word "{user_input.upper()}" is not in memory today, but we can add it in the future if it is a real word.'
+
+result_msg = f'\nThe French translation of "{user_input.upper()}" is:\t'
+
+french_translation = french.get(user_input)
+
+#Condition to check for word and print a result
+if french_translation:
+    print(result_msg, french_translation)
 else:
     print(not_in_memory)

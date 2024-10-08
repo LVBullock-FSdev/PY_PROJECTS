@@ -8,71 +8,54 @@ Homework-optional_language_translator.py
 - Please add the translation of "prune" in your homework.
 - If the word is not in the French code, print "[word]" is not in memory)
 ***The user will select the language that he/she would like to translate to*** (optional)
-'''
+
+------------------------***OPTIONAL***--------------------------------
+***The user will select the language in which to translate the word to*** (optional)'''
 
 
-'''------------------------***OPTIONAL***--------------------------------
-***The user will select the language the would like to translate to*** (optional)'''
-#get user input
-word = input('\nSelect from the list below or enter a word.\
-                   \n\tcloud\n\tspace\n\tassigns\n\tchallenging homework\n\tno prunes here\n\tprune\
-                   \nPlease enter a word here-->   ')
-user_language = input('\nSelect from the list below or enter a language.\
-                   \n\tFrench\n\tSpanish\n\t\
-                   \nPlease enter a your language preference here-->   ')
+# creating a dictionary which holds the English word as the key and the value of the specific language
+languages = {
+    "French": {"cloud": "nuage", "space": "espace", "assigns": "assigne", "challenging":  "difficiles", "homework": "devoirs", "no prunes here": "pas de pruneaux ici", "prune": "élaguer"},
 
-#declaration for word not in memory
-not_in_memory = f'\nSorry, the word "{word.upper()}" is not in memory today, but we can add it in the future if it is a real word.'
+    "Spanish": {"cloud": "nube", "space": "espacio", "assigns": "asigna", "challenging": "desafiante", "homework": "tarea", "no prunes here": "aquí no hay ciruelas pasas", "prune": "ciruela pasa"},
 
-# declare an empty dictionary
-languages = {"French": [{"cloud": "nuage"}, {"space": "espace"}, \
-                         {"assigns": "assigne"}, {"challenging homework": "devoirs difficiles"}, {"no prunes here": "pas de pruneaux ici"}, {"prune": "élaguer"}],
-
-    "Spanish": [{"cloud": "nube"}, {"space": "espacio"}, {"assigns": "asigna"}, {"challenging homework": "tarea desafiante"}, {"no prunes here": "aquí no hay ciruelas pasas"}, {"prune": "ciruela pasa"}]
+    "German": {"cloud": "Wolke", "space": "Raum", "assigns": "weist zu", "challenging": "herausfordernd", "homework": "Hausaufgaben", "no prunes here": "hier gibt es keine Pflaumen", "prune": "beschneiden OR kürzen OR stutzen"}
     }
 
-f_translation = f'\nThe French translation of "{word.upper()}" is:\t'
-s_translation = f'\nThe Spanish translation of "{word.upper()}" is:\t'
+print(languages)
 
-#French------------------------------------------------------------
+#prompt user to enter a word
+word = input('\nPlease enter a word here-->   ')
 
-if word == "cloud" and user_language == "French":
-    print(f_translation, languages["French"][0]["cloud"])
+#prompt user to enter a language
+user_language = input('\nPlease enter a your preferred language here-->   ')
 
-elif word == "space" and user_language == "French":
-    print(f_translation, languages["French"][1]["space"])
+#get the relevant word from the languages dictionary
+f_translation = languages["French"].get(word)
+s_translation = languages["Spanish"].get(word)
+g_translation = languages["German"].get(word)
 
-elif word == "assigns" and user_language == "French":
-    print(f_translation, languages["French"][2]["assigns"])
+french_msg = f'\nThe French translation of "{word}" is:\t'
+spanish_msg = f'\nThe Spanish translation of "{word}" is:\t'
+german_msg = f'\nThe German translation of "{word}" is:\t'
 
-elif word == "challenging homework" and user_language == "French":
-    print(f_translation, languages["French"][3]["challenging homework"])
+if not word and not user_language:
+    print(f'\nOops, you have no entries.  Please try again.')
+elif not word:
+    print(f'\nOops, you have not entered a word.  Please try again.')
+elif not user_language:
+    print(f'\nOops, you have not entered a language.  Please try again.')
+elif not f_translation or not s_translation or not s_translation:
+    print(f'\nOops currently, the word "{word}" is not in memory, but we can add it in the future provided it is a real word.')
 
-elif word == "no prunes here" and user_language == "French":
-    print(f_translation, languages["French"][4]["no prunes here"])
+elif user_language == "French":
+    print(french_msg, f_translation)
 
-elif word == "prune" and user_language == "French":
-    print(f_translation, languages["French"][5]["prune"])
+elif user_language == "Spanish":
+    print(spanish_msg, s_translation)
 
-#Spanish------------------------------------------------------------
-
-elif word == "cloud" and user_language == "Spanish":
-    print(s_translation, languages["Spanish"][0]["cloud"])
-
-elif word == "space" and user_language == "Spanish":
-    print(s_translation, languages["Spanish"][1]["space"])
-
-elif word == "assigns" and user_language == "Spanish":
-    print(s_translation, languages["Spanish"][2]["assigns"])
-
-elif word == "challenging homework" and user_language == "Spanish":
-    print(s_translation, languages["Spanish"][3]["challenging homework"])
-
-elif word == "no prunes here" and user_language == "Spanish":
-    print(s_translation, languages["Spanish"][4]["no prunes here"])
-
-elif word == "prune" and user_language == "Spanish":
-    print(s_translation, languages["Spanish"][5]["prune"])
+elif user_language == "German":
+    print(german_msg, g_translation)
 
 else:
-    print(not_in_memory)
+    print(f'Oops, currently, the {user_language.upper()} translation of "{word}" not in memory.')
