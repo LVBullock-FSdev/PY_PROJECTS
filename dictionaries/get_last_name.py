@@ -24,7 +24,8 @@ search = "Alexandra"
 print(f'\nThe last name of the second employee is:\t', h2_dictionary["employees"][1]["lastName"])
 
 
-if search not in h2_dictionary["employees"][1]["firstName"] and \
+if search not in h2_dictionary["employees"][0]["firstName"] and \
+    search not in h2_dictionary["employees"][1]["firstName"] and \
     search not in h2_dictionary["employees"][2]["firstName"] and \
     search not in h2_dictionary["owners"][0]["firstName"] and \
     search not in h2_dictionary["owners"][1]["firstName"] and \
@@ -35,4 +36,4 @@ if search not in h2_dictionary["employees"][1]["firstName"] and \
     search not in h2_dictionary["owners"][1]["lastName"]:
     print(f'\nEntry Not Found for "{search}"!')
 else:
-    print(f'{search}')
+    print(f'\n{search}')
