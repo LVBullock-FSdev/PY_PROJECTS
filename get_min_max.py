@@ -21,11 +21,7 @@ my_list2 = [-1,-2,-3,-4]
 my_list3 = [0,0,0,0]
 my_list4 = [] 
 
-if len(my_list1) != 0:
-    print(max(my_list1), min(my_list1))
-if len(my_list2) != 0:
-    print(max(my_list2), min(my_list2))
-if len(my_list3) != 0:
-    print(max(my_list3), min(my_list3))
-
+print(max(my_list1), min(my_list1))
+print(max(my_list2), min(my_list2))
+print(max(my_list3), min(my_list3))
 print(my_list4, "None")
