@@ -45,7 +45,7 @@ elif not word:
     print(f'\nOops, you have not entered a word.  Please try again.')
 elif not user_language:
     print(f'\nOops, you have not entered a language.  Please try again.')
-elif not f_translation or not s_translation or not s_translation:
+elif not f_translation or not s_translation or not g_translation:
     print(f'\nOops currently, the word "{word}" is not in memory, but we can add it in the future provided it is a real word.')
 
 elif user_language == "French":
