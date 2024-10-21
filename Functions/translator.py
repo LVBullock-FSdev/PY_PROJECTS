@@ -1,3 +1,10 @@
+'''Laura V. Bullock
+10/17/2024
+Week7 - Day2
+Homework3-translator.py
+
+Rewrite the translation home using functions.'''
+
 # Function to translate words
 def translate(word, language):
     # Define an English words dictionary with translations for each language

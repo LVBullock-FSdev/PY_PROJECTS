@@ -13,7 +13,7 @@ def is_even(number):
 # Function to return whether the number is even or odd
 def even_or_odd(number):
     if is_even(number):
-        return f"{number} is an Even number.  {thanks}"
+        return f"{number} is an EVEN number.  {thanks}"
     else:
         return f"{number} is an ODD number.  {thanks}"
     

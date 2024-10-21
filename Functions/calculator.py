@@ -74,6 +74,6 @@ def calculate():
     else:
         return "Invalid input"
 
-    return f"\n{operation} of {num1} and {num2} is: {result:0,.2f}" #2 decimal places in case division returns large decimal
+    return f"\n{operation.upper()} of {num1} and {num2} is: {result:0,.2f}" #2 decimal places in case division returns large decimal
 
 print(f"{calculate()} \n\n\tThank you for playing.  Have a wonderfully blessed day!")
