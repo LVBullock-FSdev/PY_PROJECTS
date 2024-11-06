@@ -27,11 +27,26 @@ a = append'''
 elements_file = 'elements_to_list.txt'
 #The most efficient way is to create a function with a loop to get line by line
 def list_to_file(elements_file, elements):
+    # Open the the file in write mode
     with open(elements_file, 'w') as file:
+        #Loop through each element in the list and write to the file.
         for element in elements:
-            file.write(element)
+            file.write(f"{element}\n")
 
-elements = ["Hydrogen\n", "Helium\n", "Lithium\n", "Beryllium\n", "Boron\n", "Carbon\n", "Nitrogen\n", "Oxygen\n", "Flourine\n", "Neon"]
+    #Stripping the last empty line from the file
+    # Read the list from the file
+    with open(elements_file, 'r') as f:
+        lines = f.readlines()
+
+    # Strip the newline from the last element
+    if lines:
+        lines[-1] = lines[-1].rstrip('\n')
+
+    # Write the modified list back to the file
+    with open(elements_file, 'w') as f:
+      f.writelines(lines)
+
+elements = ["Hydrogen", "Helium", "Lithium", "Beryllium", "Boron", "Carbon", "Nitrogen", "Oxygen", "Flourine", "Neon"]
 
 print(elements)
 
