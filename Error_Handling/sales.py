@@ -8,6 +8,23 @@ Order = {'tomato': 30, 'thyme':4.50, 'garlic':7.5, 'rice':10, 'onions':4, 'fish'
 Add it to your GitHub ans send us a screenshot of your working code.'''
 
 def grocery_cart(order):
+    """
+        Add items to a grocery cart and return a total in a receipt text..
+
+        Args:
+            Order (dictionary): A dictionary with product and price.
+            cart (list): items from Order to be added to the cart.
+        
+        Returns:
+            The product of all even numbers in the list or 
+            
+
+        Raises:
+            ValueError: If Order is empty; therefore cart is empty.
+            TypeError: If the input is an invalid dictionary type.
+            NameError: If a value is not defined.
+        """
+
     cart = []
     total = 0
     draw_line = "*" * 35 + "\n"
@@ -54,7 +71,7 @@ try:
         'onions': '4',
         'fish': 9.99}'''
 
-    # NameError (price contains a string)
+    # NameError (value not defined)
     '''Order = {
         'tomato': 30,
         'thyme': 4.5,
