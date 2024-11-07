@@ -1,0 +1,16 @@
+
+Welcome to Super Bolt Grocery Center
+
+	Receipt for your groceries:
+***********************************
+	tomato:		$30.00
+	thyme:		$4.50
+	garlic:		$7.50
+	rice:		$10.00
+	onions:		$4.00
+	fish:		$9.99
+***********************************
+	Total:		$65.99
+
+Thanks for shopping with us today. 
+HAVE A WONDERFULLY BLESSED DAY!
