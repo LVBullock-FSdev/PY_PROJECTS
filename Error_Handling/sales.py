@@ -16,8 +16,7 @@ def grocery_cart(order):
             cart (list): items from Order to be added to the cart.
         
         Returns:
-            The product of all even numbers in the list or 
-            
+            file (txt):  Writes a sales receipt as a text file.  
 
         Raises:
             ValueError: If Order is empty; therefore cart is empty.
