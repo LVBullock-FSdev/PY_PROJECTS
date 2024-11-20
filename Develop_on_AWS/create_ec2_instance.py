@@ -23,13 +23,15 @@ def create_ec2_instance():
     Create an EC2 instance with the name 'ec2-created-by-python' in AWS.
     Uses the default AMI, instance type.
 
-        Args:
+    Args:
         ami_id (string): the id of the ami found in AWS console.
         instance_type (string): type of instance to be created.
+        security_group_id (string): security group id
         instance_name (string): name of the instance.
+        monitoring (dict): Enabled: True
     
     Returns:
-        dict: Information about the created instance if successful, otherwise, None.
+        Response as created instance id on the "Instances" page of AWS Console and launches the instance.
 
     Raise:
         Exception as error if failed to create the instance. 
@@ -46,7 +48,7 @@ def create_ec2_instance():
     ec2_client = boto3.client("ec2")
 
     try:
-        # Create a new EC2 instance
+        # Launch a new EC2 instance and start it using run_instances
         response = ec2_client.run_instances(
             ImageId = ami_id,
             InstanceType = instance_type,
