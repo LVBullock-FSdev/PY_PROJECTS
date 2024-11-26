@@ -49,16 +49,23 @@ def list_all_lauras_ec2_instances():
     # Looping through the reservations and extract the details
     for reservation in response['Reservations']:
         for instance in reservation['Instances']:
+            # Get the instance name (from tags, if available)
+            instance_name = ''
+            for tag in instance.get('Tags', []):
+                if tag['Key'] == 'Name':
+                    instance_name = tag['Value']
+                    break
+
+            # Creating a dictionary with the instance details
             instance_details = {
-                "instance_name":next(
-                    (tag['Value'] for tag in instance.get('Tags', []) if tag['Key'] == 'Name'), "N/A"
-                ), #Extract name tag
-                "instance_type": instance.get('InstanceType', "N/A"),
-                "image_id": instance.get("ImageId", "N/A"),
-                "state": instance['State']['Name'] if 'State' in instance else 'N/A'
+                'instance_name': instance_name,
+                'instance_type': instance['InstanceType'],
+                'image_id': instance['ImageId'],
+                'state': instance['State']['Name']
             }
             lauras_ec2_instances.append(instance_details)
-            print(lauras_ec2_instances)
+
+            # print(lauras_ec2_instances)
     return lauras_ec2_instances
 
 # Repurpose generate_csv_report to use DictWriter method
