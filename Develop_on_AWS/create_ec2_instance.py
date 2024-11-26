@@ -41,7 +41,7 @@ def create_ec2_instance():
     ami_id = "ami-0984f4b9e98be44bf"  # Provide an Amazon Linux 2 AMI - This is the ImageID
     instance_type = "t3.micro"  # Use t3.micro instance type
     security_group_id = "sg-0fc15011e8a1fefb1"  # Will add to default if not specified
-    instance_name = "ec2-created-by-python"
+    instance_name = "ec2-created-by-python-11/26/2024"
     monitoring = {'Enabled': True}
     
     # Initialize the EC2 client

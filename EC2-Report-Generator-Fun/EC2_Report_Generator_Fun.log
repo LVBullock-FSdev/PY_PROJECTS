@@ -1,0 +1,14 @@
+2024-11-26 14:06:01 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2024-11-26 14:06:02 - INFO - Successfully generated csv report as lauras_ec2_report.csv
+2024-11-26 14:06:02 - INFO - lauras_ec2_report.csv successfully uploaded to cloudspace-lvb
+2024-11-26 14:06:03 - INFO - Message ID: 0100019369ddccfe-b8d40497-3a1a-4fbb-8551-63c7dc5cf591-000000
+ {'ResponseMetadata': {'RequestId': '27ca6ea7-0518-4560-95da-74667a19bb6c', 'HTTPStatusCode': 200, 'HTTPHeaders': {'date': 'Tue, 26 Nov 2024 19:06:03 GMT', 'content-type': 'application/json', 'content-length': '76', 'connection': 'keep-alive', 'x-amzn-requestid': '27ca6ea7-0518-4560-95da-74667a19bb6c'}, 'RetryAttempts': 0}, 'MessageId': '0100019369ddccfe-b8d40497-3a1a-4fbb-8551-63c7dc5cf591-000000'}
+2024-11-26 14:06:03 - INFO - End of the log! 
+************************************************************
+2024-11-26 14:16:29 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2024-11-26 14:16:30 - INFO - Successfully generated csv report as lauras_ec2_report.csv
+2024-11-26 14:16:30 - INFO - lauras_ec2_report.csv successfully uploaded to cloudspace-lvb
+2024-11-26 14:16:31 - INFO - Message ID: 0100019369e76024-abd7663e-c92c-4a0d-9e9a-ed429909a451-000000
+ {'ResponseMetadata': {'RequestId': '3f3bf864-0572-42d1-950b-e35d76d3cdfd', 'HTTPStatusCode': 200, 'HTTPHeaders': {'date': 'Tue, 26 Nov 2024 19:16:31 GMT', 'content-type': 'application/json', 'content-length': '76', 'connection': 'keep-alive', 'x-amzn-requestid': '3f3bf864-0572-42d1-950b-e35d76d3cdfd'}, 'RetryAttempts': 0}, 'MessageId': '0100019369e76024-abd7663e-c92c-4a0d-9e9a-ed429909a451-000000'}
+2024-11-26 14:16:31 - INFO - End of the log! 
+************************************************************
