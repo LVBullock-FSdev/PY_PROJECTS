@@ -200,7 +200,7 @@ def send_email_with_attachment_using_ses():
         logger.info(f'Message ID: {response["MessageId"]}\n {response}')
 
     except (BotoCoreError, ClientError) as error:
-        print(f"Error sending email: {error}")
+        logger.error(f"Error sending email: {error}")
 
 #main
 if __name__ == '__main__':
