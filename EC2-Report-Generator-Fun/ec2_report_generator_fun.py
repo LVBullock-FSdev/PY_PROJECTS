@@ -44,6 +44,7 @@ def list_all_lauras_ec2_instances():
     ec2_client = boto3.client('ec2')
 
     # Gets the details of all of the EC2 instances as a response
+    #resource:  https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/ec2/client/describe_instances.html
     response = ec2_client.describe_instances()
 
     # Looping through the reservations and extract the details
