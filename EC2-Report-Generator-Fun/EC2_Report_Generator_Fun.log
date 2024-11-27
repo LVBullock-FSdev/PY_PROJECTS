@@ -12,3 +12,17 @@
  {'ResponseMetadata': {'RequestId': '3f3bf864-0572-42d1-950b-e35d76d3cdfd', 'HTTPStatusCode': 200, 'HTTPHeaders': {'date': 'Tue, 26 Nov 2024 19:16:31 GMT', 'content-type': 'application/json', 'content-length': '76', 'connection': 'keep-alive', 'x-amzn-requestid': '3f3bf864-0572-42d1-950b-e35d76d3cdfd'}, 'RetryAttempts': 0}, 'MessageId': '0100019369e76024-abd7663e-c92c-4a0d-9e9a-ed429909a451-000000'}
 2024-11-26 14:16:31 - INFO - End of the log! 
 ************************************************************
+2024-11-26 16:33:58 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2024-11-26 16:33:59 - INFO - Successfully generated csv report as lauras_ec2_report.csv
+2024-11-26 16:33:59 - INFO - lauras_ec2_report.csv successfully uploaded to cloudspace-lvb
+2024-11-26 16:34:01 - INFO - Message ID: 010001936a654502-0e1936d7-ab7b-4c07-bf8e-65aeef8b4d52-000000
+ {'ResponseMetadata': {'RequestId': '8c8a3797-e5b7-4e2a-ba53-43a583457b04', 'HTTPStatusCode': 200, 'HTTPHeaders': {'date': 'Tue, 26 Nov 2024 21:34:02 GMT', 'content-type': 'application/json', 'content-length': '76', 'connection': 'keep-alive', 'x-amzn-requestid': '8c8a3797-e5b7-4e2a-ba53-43a583457b04'}, 'RetryAttempts': 0}, 'MessageId': '010001936a654502-0e1936d7-ab7b-4c07-bf8e-65aeef8b4d52-000000'}
+2024-11-26 16:34:01 - INFO - End of the log! 
+************************************************************
+2024-11-26 16:37:37 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2024-11-26 16:37:38 - INFO - Successfully generated csv report as lauras_ec2_report.csv
+2024-11-26 16:37:38 - INFO - lauras_ec2_report.csv successfully uploaded to cloudspace-lvb
+2024-11-26 16:37:39 - INFO - Message ID: 010001936a6896ca-50272081-1923-423c-9877-bc4eaf43340f-000000
+ {'ResponseMetadata': {'RequestId': '66084cac-483b-4fc3-89fb-f4cc4804ae16', 'HTTPStatusCode': 200, 'HTTPHeaders': {'date': 'Tue, 26 Nov 2024 21:37:39 GMT', 'content-type': 'application/json', 'content-length': '76', 'connection': 'keep-alive', 'x-amzn-requestid': '66084cac-483b-4fc3-89fb-f4cc4804ae16'}, 'RetryAttempts': 0}, 'MessageId': '010001936a6896ca-50272081-1923-423c-9877-bc4eaf43340f-000000'}
+2024-11-26 16:37:39 - INFO - End of the log! 
+************************************************************
