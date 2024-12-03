@@ -26,3 +26,50 @@
  {'ResponseMetadata': {'RequestId': '66084cac-483b-4fc3-89fb-f4cc4804ae16', 'HTTPStatusCode': 200, 'HTTPHeaders': {'date': 'Tue, 26 Nov 2024 21:37:39 GMT', 'content-type': 'application/json', 'content-length': '76', 'connection': 'keep-alive', 'x-amzn-requestid': '66084cac-483b-4fc3-89fb-f4cc4804ae16'}, 'RetryAttempts': 0}, 'MessageId': '010001936a6896ca-50272081-1923-423c-9877-bc4eaf43340f-000000'}
 2024-11-26 16:37:39 - INFO - End of the log! 
 ************************************************************
+2024-12-03 14:38:50 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2024-12-03 14:39:46 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2024-12-03 14:39:47 - INFO - Successfully generated csv report as lauras_ec2_report.csv
+2024-12-03 14:39:47 - INFO - lauras_ec2_report.csv successfully uploaded to cloudspace-lvb
+2024-12-03 14:39:48 - INFO - Message ID: 010001938e09359e-7a4301af-a3cd-41c7-bf20-09e4c4672687-000000
+ {'ResponseMetadata': {'RequestId': '15e773a4-d7ab-4a07-85d7-58d866636337', 'HTTPStatusCode': 200, 'HTTPHeaders': {'date': 'Tue, 03 Dec 2024 19:39:48 GMT', 'content-type': 'application/json', 'content-length': '76', 'connection': 'keep-alive', 'x-amzn-requestid': '15e773a4-d7ab-4a07-85d7-58d866636337'}, 'RetryAttempts': 0}, 'MessageId': '010001938e09359e-7a4301af-a3cd-41c7-bf20-09e4c4672687-000000'}
+2024-12-03 14:39:48 - INFO - End of the log! 
+************************************************************
+2024-12-03 14:52:29 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2024-12-03 14:52:30 - INFO - Successfully generated csv report as lauras_ec2_report.csv
+2024-12-03 14:52:30 - INFO - lauras_ec2_report.csv successfully uploaded to cloudspace-lvb
+2024-12-03 14:52:31 - INFO - Message ID: 010001938e14d891-aba4cb1f-f554-488b-845e-d2f6d599d305-000000
+ {'ResponseMetadata': {'RequestId': 'b5be5fb7-784f-4542-819b-200436bed5fd', 'HTTPStatusCode': 200, 'HTTPHeaders': {'date': 'Tue, 03 Dec 2024 19:52:31 GMT', 'content-type': 'application/json', 'content-length': '76', 'connection': 'keep-alive', 'x-amzn-requestid': 'b5be5fb7-784f-4542-819b-200436bed5fd'}, 'RetryAttempts': 0}, 'MessageId': '010001938e14d891-aba4cb1f-f554-488b-845e-d2f6d599d305-000000'}
+2024-12-03 14:52:31 - INFO - End of the log! 
+************************************************************
+2024-12-03 15:01:58 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2024-12-03 15:01:58 - INFO - Successfully generated csv report as lauras_ec2_report.csv
+2024-12-03 15:01:58 - INFO - lauras_ec2_report.csv successfully uploaded to cloudspace-lvb
+2024-12-03 15:02:00 - INFO - Message ID: 010001938e1d8653-a292828d-13a2-4490-a79f-027afa1dce1a-000000
+ {'ResponseMetadata': {'RequestId': '8d5e7e49-0619-4d5a-9709-ba68fd928308', 'HTTPStatusCode': 200, 'HTTPHeaders': {'date': 'Tue, 03 Dec 2024 20:01:59 GMT', 'content-type': 'application/json', 'content-length': '76', 'connection': 'keep-alive', 'x-amzn-requestid': '8d5e7e49-0619-4d5a-9709-ba68fd928308'}, 'RetryAttempts': 0}, 'MessageId': '010001938e1d8653-a292828d-13a2-4490-a79f-027afa1dce1a-000000'}
+2024-12-03 15:02:00 - INFO - End of the log! 
+************************************************************
+2024-12-03 15:48:03 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2024-12-03 15:48:04 - INFO - Successfully generated csv report as lauras_ec2_report.csv
+2024-12-03 15:48:04 - INFO - lauras_ec2_report.csv successfully uploaded to cloudspace-lvb
+2024-12-03 15:48:06 - INFO - Message ID: 010001938e47bbd7-65bc50e5-696b-4ce3-aa7c-ef146a44d3d0-000000
+ {'ResponseMetadata': {'RequestId': 'bdfc3de0-f489-40b2-9b81-1a3a91360092', 'HTTPStatusCode': 200, 'HTTPHeaders': {'date': 'Tue, 03 Dec 2024 20:48:06 GMT', 'content-type': 'application/json', 'content-length': '76', 'connection': 'keep-alive', 'x-amzn-requestid': 'bdfc3de0-f489-40b2-9b81-1a3a91360092'}, 'RetryAttempts': 0}, 'MessageId': '010001938e47bbd7-65bc50e5-696b-4ce3-aa7c-ef146a44d3d0-000000'}
+2024-12-03 15:48:06 - INFO - End of the log! 
+************************************************************
+2024-12-03 15:53:47 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2024-12-03 16:20:11 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2024-12-03 16:21:48 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2024-12-03 16:24:24 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2024-12-03 16:28:10 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2024-12-03 16:28:11 - INFO - Successfully generated csv report as lauras_ec2_report.csv
+2024-12-03 16:28:11 - INFO - lauras_ec2_report.csv successfully uploaded to cloudspace-lvb
+2024-12-03 16:28:12 - INFO - Message ID: 010001938e6c744c-fd19946d-f39c-4dba-ae66-8c94f1bdfc78-000000
+ {'ResponseMetadata': {'RequestId': '12950d20-520b-4f87-80f7-3b41b0720cd0', 'HTTPStatusCode': 200, 'HTTPHeaders': {'date': 'Tue, 03 Dec 2024 21:28:12 GMT', 'content-type': 'application/json', 'content-length': '76', 'connection': 'keep-alive', 'x-amzn-requestid': '12950d20-520b-4f87-80f7-3b41b0720cd0'}, 'RetryAttempts': 0}, 'MessageId': '010001938e6c744c-fd19946d-f39c-4dba-ae66-8c94f1bdfc78-000000'}
+2024-12-03 16:28:12 - INFO - End of the log! 
+************************************************************
+2024-12-03 16:58:04 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2024-12-03 16:58:05 - INFO - Successfully generated csv report as lauras_ec2_report.csv
+2024-12-03 16:58:06 - INFO - lauras_ec2_report.csv successfully uploaded to cloudspace-lvb
+2024-12-03 16:58:07 - INFO - Message ID: 010001938e87d724-15262832-e021-4f1a-9aaf-da21ed8b0f62-000000
+ {'ResponseMetadata': {'RequestId': 'd88c25df-b123-45ac-9945-01cc539cb703', 'HTTPStatusCode': 200, 'HTTPHeaders': {'date': 'Tue, 03 Dec 2024 21:58:07 GMT', 'content-type': 'application/json', 'content-length': '76', 'connection': 'keep-alive', 'x-amzn-requestid': 'd88c25df-b123-45ac-9945-01cc539cb703'}, 'RetryAttempts': 0}, 'MessageId': '010001938e87d724-15262832-e021-4f1a-9aaf-da21ed8b0f62-000000'}
+2024-12-03 16:58:07 - INFO - End of the log! 
+************************************************************
